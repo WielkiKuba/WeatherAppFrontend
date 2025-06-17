@@ -1,5 +1,6 @@
 services:
 - type: web
+  staticPublicPath: app/
   name: nextjs-static
   runtime: node
   plan: Hobby
