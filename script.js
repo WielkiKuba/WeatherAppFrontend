@@ -4,13 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusMessageDiv = document.getElementById('statusMessage');
     const darkModeToggle = document.getElementById('darkModeToggle');
 
-    // --- NOWA FUNKCJA FORMATUJĄCA DATĘ ---
     function formatToDDMMYYYY(dateString) {
         // Przyjmuje datę w formacie YYYY-MM-DD
         const [year, month, day] = dateString.split('-');
         return `${day}-${month}-${year}`;
     }
-    // --- KONIEC NOWEJ FUNKCJI ---
 
     function getWeatherIconPath(weatherCode) {
         if (weatherCode < 50) {
