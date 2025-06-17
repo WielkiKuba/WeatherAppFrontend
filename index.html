@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Pogodowa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="darkModeToggle">Włącz Tryb Ciemny</button>
+
+    <div class="container">
+        <h1>Prognoza Pogody na Tydzień</h1>
+
+        <div id="statusMessage" class="message"></div>
+
+        <table id="weatherTable">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Temp. Max (°C)</th>
+                    <th>Temp. Min (°C)</th>
+                    <th>Czas Nasłonecznienia (s)</th>
+                    <th>Energia Szac. (kWh)</th>
+                    <th>Opis Pogody</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6" id="summaryFooter"></td>
+                </tr>
+</tfoot>
+        </table>
+    </div> <footer class="footer">
+        <p>Dane kontaktowe:</p>
+        <p>Imię: Jakub</p>
+        <p>Nazwisko: Graczyński</p>
+        <p>Numer telefonu: <a href="tel:123123123">519 388 375</a></p>
+        <p>E-mail: <a href="mailto:mail@mail.com">MarekDyson@proton.me</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
